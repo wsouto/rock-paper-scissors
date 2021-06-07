@@ -1,6 +1,6 @@
 {
   "name": "r-p-s",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Rock, Paper, Scissors Game",
   "main": "js/app.js",
   "scripts": {
