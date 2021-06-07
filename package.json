@@ -1,0 +1,16 @@
+{
+  "name": "r-p-s",
+  "version": "1.0.0",
+  "description": "Rock, Paper, Scissors Game",
+  "main": "js/app.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "author": "Walter Souto <wsouto@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "vite": "latest"
+  }
+}
