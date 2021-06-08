@@ -43,7 +43,7 @@ function win(user, comp) {
   result_h1.innerHTML = `${hands[user]}${smUser} beats ${hands[comp]}${smComp}. You win!`;
 
   glow.classList.add('green-glow');
-  setTimeout(() => glow.classList.remove('green-glow'), 1000);
+  setTimeout(() => glow.classList.remove('green-glow'), 500);
 }
 
 function lose(user, comp) {
@@ -53,7 +53,7 @@ function lose(user, comp) {
   result_h1.innerHTML = `${hands[comp]}${smComp} beats ${hands[user]}${smUser}. You lose!`;
 
   glow.classList.add('red-glow');
-  setTimeout(() => glow.classList.remove('red-glow'), 1000);
+  setTimeout(() => glow.classList.remove('red-glow'), 500);
 }
 
 function draw(hand) {
@@ -62,7 +62,7 @@ function draw(hand) {
   result_h1.innerHTML = `${hands[hand]} equals ${hands[hand]}. It's a draw.`;
 
   glow.classList.add('gray-glow');
-  setTimeout(() => glow.classList.remove('gray-glow'), 1000);
+  setTimeout(() => glow.classList.remove('gray-glow'), 500);
 }
 
 function game(userHand) {
