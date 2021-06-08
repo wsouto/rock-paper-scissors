@@ -1,3 +1,5 @@
+// Rock Paper Scissors Lizard Spock Game Module
+
 console.log('Rock Paper Scissors Lizard Spock Game is on!');
 
 // Cache elements
