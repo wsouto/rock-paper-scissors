@@ -6,7 +6,7 @@ This game is made with HTML, CSS and Javascript.
 
 It was based on this [tutorial](https://www.youtube.com/watch?v=jaVNP3nIAv0) from FreeCodeCamp, so props to them.
 
-The goal now is to add Lizard-Spock to the game. To facilitate the task and keep things uniform, the images are already in place.
+The goal now is to add Lizard-Spock to the game. To facilitate the task and keep things uniform, the images are already in place. ✅
 
 ---
 
