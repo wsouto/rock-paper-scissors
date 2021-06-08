@@ -1,4 +1,4 @@
-console.log('Rock Paper Scissors Game is on!');
+console.log('Rock Paper Scissors Lizard Spock Game is on!');
 
 // Cache elements
 const scoreBoard_div = document.querySelector('.score-board');
@@ -18,8 +18,8 @@ let hands = {
   r: 'Rock',
   p: 'Paper',
   s: 'Scissors',
-  l: 'lizard',
-  k: 'spock',
+  l: 'Lizard',
+  k: 'Spock',
 };
 
 // Initialize the scores
