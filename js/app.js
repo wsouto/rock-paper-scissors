@@ -69,9 +69,8 @@ function game(userHand) {
   const compHand = getCompHand();
 
   switch (userHand + compHand) {
-    case 'rs':
-    case 'pr':
     case 'sp':
+    case 'pr':
     case 'rl':
     case 'lk':
     case 'ks':
@@ -79,17 +78,18 @@ function game(userHand) {
     case 'lp':
     case 'pk':
     case 'kr':
+    case 'rs':
       win(userHand, compHand);
       break;
-    case 'rp':
     case 'ps':
-    case 'sr':
+    case 'rp':
     case 'lr':
     case 'kl':
     case 'sk':
     case 'ls':
     case 'kp':
     case 'rk':
+    case 'sr':
       lose(userHand, compHand);
       break;
     case 'rr':
