@@ -1,3 +1,5 @@
+// Rock Paper Scissors Lizard Spock Game Module
+
 console.log('Rock Paper Scissors Lizard Spock Game is on!');
 
 // Cache elements
@@ -22,6 +24,7 @@ let hands = {
   k: 'Spock',
 };
 
+// Set action words
 let actions = {
   sp: 'cuts',
   pr: 'covers',
@@ -52,10 +55,10 @@ function getCompHand() {
 function win(user, comp) {
   const glow = document.getElementById(user);
 
+  let action = actions[user + comp];
+
   userScore_span.innerText = ++userScore;
-  result_h1.innerHTML = `${hands[user]}${smUser} ${actions[user + comp]} ${
-    hands[comp]
-  }${smComp}. You win!`;
+  result_h1.innerHTML = `${hands[user]}${smUser} ${action} ${hands[comp]}${smComp}. You win!`;
 
   glow.classList.add('green-glow');
   setTimeout(() => glow.classList.remove('green-glow'), 500);
@@ -64,10 +67,10 @@ function win(user, comp) {
 function lose(user, comp) {
   const glow = document.getElementById(user);
 
+  let action = actions[comp + user];
+
   compScore_span.innerText = ++compScore;
-  result_h1.innerHTML = `${hands[comp]}${smComp} ${actions[comp + user]} ${
-    hands[user]
-  }${smUser}. You lose!`;
+  result_h1.innerHTML = `${hands[comp]}${smComp} ${action} ${hands[user]}${smUser}. You lose!`;
 
   glow.classList.add('red-glow');
   setTimeout(() => glow.classList.remove('red-glow'), 500);

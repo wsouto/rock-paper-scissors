@@ -6,3 +6,7 @@ node_modules/
 
 # Dotenv
 .env
+
+# Build directory
+dist/
+
