@@ -14,7 +14,7 @@ The goal now is to add Lizard-Spock to the game. To facilitate the task and keep
 
 1. Make sure you have _NodeJS_ installed. Any version will do.
 
-2. In the game directory just run `npm install` to install the packages needes.
+2. In the game directory just run `npm install` to install the packages needed.
 
 3. Run `npm run dev` to run game.
 
