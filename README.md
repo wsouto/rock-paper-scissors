@@ -8,6 +8,8 @@ It was based on this [tutorial](https://www.youtube.com/watch?v=jaVNP3nIAv0) fro
 
 The goal now is to add Lizard-Spock to the game. To facilitate the task and keep things uniform, the images are already in place. ✅
 
+Next assignment: to learn some Typescript. Let's convert `app.js` to `app.ts`.
+
 ---
 
 ## To run the game locally:
